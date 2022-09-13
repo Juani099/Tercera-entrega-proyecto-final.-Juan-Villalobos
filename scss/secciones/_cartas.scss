@@ -1,0 +1,37 @@
+.cardp {
+	background-color: #10aaec;
+	transition: 0.3s;
+	border-radius: 10px;
+	&:hover {
+		transform: scale(1.1);
+		background-color: #8cdbff;
+		transition: 0.3s;
+	}
+}
+.cardg {
+	background-color: #10aaec;
+	transition: 0.3s;
+	border-radius: 10px;
+	&:hover {
+		transform: scale(1.1);
+		background-color: #cc40f7;
+		transition: 0.3s;
+	}
+}
+.cardz {
+	background-color: #10aaec;
+	transition: 0.3s;
+	border-radius: 10px;
+	&:hover {
+		transform: scale(1.1);
+		background-color: #ff6842;
+		transition: 0.3s;
+	}
+}
+
+.cartas {
+	margin-top: 50px;
+	div {
+		padding: 15px;
+	}
+}

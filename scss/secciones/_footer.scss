@@ -1,0 +1,19 @@
+.footer {
+	background-color: rgba(0, 0, 0, 0.925);
+	height: 75px;
+	margin-top: 700px;
+	ul {
+		color: black;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		p {
+			color: white;
+		}
+		li {
+			a {
+				color: white;
+			}
+		}
+	}
+}

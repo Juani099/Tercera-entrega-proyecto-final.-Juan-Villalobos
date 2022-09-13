@@ -1,0 +1,19 @@
+// EXTEND
+
+%estiloH2 {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  color: blue;
+  border: 5px solid black;
+  background-color: black;
+  margin-top: 25px;
+}
+
+
+
+// MIXIN
+
+@mixin estilop {
+    background: radial-gradient(circle, rgba(65, 65, 247, 0.836) 0%, #10aaec 100%);
+}

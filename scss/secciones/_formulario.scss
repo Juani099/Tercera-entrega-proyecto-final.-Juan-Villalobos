@@ -1,0 +1,10 @@
+input {
+	background-color: #8cdbff;
+	border: none;
+	transition: 1s;
+	&:focus {
+		background-color: white;
+		border: none;
+		transform: scale(1.1);
+	}
+}

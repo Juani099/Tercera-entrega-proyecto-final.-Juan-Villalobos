@@ -1,0 +1,30 @@
+@media (max-width: 500px) {
+	.footer {
+		ul {
+			display: grid;
+			grid-template-columns: 1, 1fr;
+			li {
+				display: flex;
+				justify-content: center;
+			}
+		}
+	}
+}
+@media (max-width: 900px) {
+	.galeria {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+}
+@media (max-width: 600px) {
+	.galeria {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.section {
+		iframe {
+			width: auto;
+			height: auto;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.navlocal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: #1b3039 solid 2px;
+	width: 100%;
+	div {
+		ul {
+			li {
+				padding: 20px;
+				font-size: x-large;
+				font-family: 'EB Garamond', serif;
+				&:hover {
+					transform: scale(1.5);
+				}
+			}
+		}
+	}
+}

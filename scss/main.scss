@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import './secciones/navbar';
+@import './secciones/footer';
+@import './secciones/cartas';
+@import './secciones/carrousel';
+@import './secciones/header';
+@import './secciones/media';
+@import './secciones/formulario';
+@import './var/extend';
+
+h1 {
+	font-family: "Oswald", sans-serif;
+}
+h2 {
+	@extend %estiloH2;
+}
+a {
+	font-family: 'EB Garamond', serif;
+}
+
+p {
+color: black;
+font-size: medium;
+@include estilop;
+}
+
+.body-perros{
+	background-image: url(https://cdn.pixabay.com/photo/2016/04/05/13/55/design-1309492_960_720.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.body-gatos{
+	background-image: url(https://cdn.pixabay.com/photo/2016/04/05/13/55/design-1309492_960_720.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.body-peceras{
+	background-image: url(https://cdn.pixabay.com/photo/2016/04/05/13/55/design-1309492_960_720.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.body-form{
+	background-image: url(https://cdn.pixabay.com/photo/2016/04/05/13/55/design-1309492_960_720.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.section {
+	h2 {
+		text-align: center;
+	}
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+
+
